@@ -1,1 +1,81 @@
 # Futog: Zemlja kupusa i tradicija
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacije o Futogu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #e6f9e6; /* svetla zelena pozadina */
+            color: #2c3e50; /* tamnija boja teksta */
+            text-align: center; /* centriranje teksta */
+        }
+        h1 {
+            color: #006400; /* tamnozelena boja za naslov */
+            animation: fadeIn 2s; /* animacija za naslov */
+        }
+        h2, h3 {
+            animation: slideIn 1s; /* animacija za podnaslove */
+        }
+        a {
+            color: #2980b9; /* plava boja za linkove */
+            text-decoration: none;
+            transition: color 0.3s; /* glatka promena boje */
+        }
+        a:hover {
+            color: #ff5733; /* promena boje pri hover-u */
+            text-decoration: underline;
+        }
+        img, iframe {
+            border-radius: 10px; /* zaobljeni uglovi */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* senka ispod */
+            margin: 20px 0; /* razmak oko slika i iframe-a */
+            max-width: 100%; /* prilagodljiva širina */
+        }
+        ul {
+            list-style-type: square; /* oblik liste */
+            padding: 0;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Futog</h1>
+    <h2>U prilogu su informacije o Futogu</h2>
+    
+    <h3>Autor: Milica Džodan</h3> <!-- Moje ime i prezime -->
+    <h3>ArcGIS Story Map:</h3>
+<a href="https://storymaps.arcgis.com/stories/c075c093df47464482b5d70b0a442f29" target="_blank">Pogledaj Story Map</a>
+    <h3>Slika Futoga:</h3>
+   <img src="https://gradskeinfo.rs/wp-content/uploads/2022/08/Crkva-Futog-1.jpg" alt="Futog" style="max-width: 100%; height: auto;">
+
+    <h3>Sajtovi o Futogu:</h3>
+    <ul>
+        <li><a href="https://visitdistrikt.rs/2022/08/08/futog-varos-bogate-istorije-i-nekadasnji-trgovacki-centar-evrope/">Distrikt</a></li>
+        <li><a href="https://sr.wikipedia.org/sr-ec/%D0%A4%D1%83%D1%82%D0%BE%D0%B3">Vikipedija</a></li>
+    </ul>
+
+    <h3>Mapa Futoga:</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89843.94408506944!2d19.641984842945213!3d45.27562602750072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b0d85c5984365%3A0x11dd8ff5732a97a3!2z0KTRg9GC0L7Qsw!5e0!3m2!1ssr!2srs!4v1728943185941!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h3>Povezani resursi:</h3>
+    <ul>
+        <li><a href="fizicko-geografske.html">Fizičko-geografske karakteristike</a></li>
+        <li><a href="drustveno-geografske.html">Društveno-geografske karakteristike</a></li>
+
+    </ul>
+</body>
+</html>
